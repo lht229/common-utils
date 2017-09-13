@@ -1,0 +1,2 @@
+1、如若使用memcache开启MemcachedClientUtils的注释；
+2、配置mongo的服务器地址可以使用mongo
