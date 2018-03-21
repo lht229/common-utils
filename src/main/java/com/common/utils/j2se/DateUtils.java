@@ -372,12 +372,12 @@ public class DateUtils {
 		}
 	}
 
-	public static void main(String[] args) throws Exception {
-		Date d = new Date();
-		Calendar cal = Calendar.getInstance();
-		cal.setTime(d);
-		cal.add(Calendar.MONTH,1);
-		System.out.println(new SimpleDateFormat("yyyy-MM-dd").format(cal.getTime()));
-		System.out.println(getDiff(d, cal.getTime(), DateUtils.Type.Week));
-	}
+// 	public static void main(String[] args) throws Exception {
+// 		Date d = new Date();
+// 		Calendar cal = Calendar.getInstance();
+// 		cal.setTime(d);
+// 		cal.add(Calendar.MONTH,1);
+// 		System.out.println(new SimpleDateFormat("yyyy-MM-dd").format(cal.getTime()));
+// 		System.out.println(getDiff(d, cal.getTime(), DateUtils.Type.Week));
+// 	}
 }
