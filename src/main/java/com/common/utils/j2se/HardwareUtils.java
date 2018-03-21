@@ -166,9 +166,9 @@ public class HardwareUtils {
         return result;
     }
 
-    public static void main(String[] args) {
-		System.out.println("CPU序列号:"+getCPUSerial());
-	}
+//     public static void main(String[] args) {
+// 		System.out.println("CPU序列号:"+getCPUSerial());
+// 	}
 
 }
 
