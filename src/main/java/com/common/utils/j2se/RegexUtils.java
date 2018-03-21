@@ -135,8 +135,8 @@ public class RegexUtils {
 		return false;
 	}
 
-	public static void main(String[] args) {
-		System.out.println(isDecimal("-0.2", 2));
-	}
+// 	public static void main(String[] args) {
+// 		System.out.println(isDecimal("-0.2", 2));
+// 	}
 
 }
