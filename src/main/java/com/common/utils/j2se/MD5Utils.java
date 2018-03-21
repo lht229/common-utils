@@ -71,7 +71,7 @@ public class MD5Utils {
 		return sb.toString();
 	}
 
-	public static void main(String[] args) throws NoSuchAlgorithmException {
-		System.out.println(getStringMD5("123456", "6d02d09506f651a26bdc3fef63494e5b"));
-	}
+// 	public static void main(String[] args) throws NoSuchAlgorithmException {
+// 		System.out.println(getStringMD5("123456", "6d02d09506f651a26bdc3fef63494e5b"));
+// 	}
 }
