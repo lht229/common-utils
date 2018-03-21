@@ -560,9 +560,9 @@ public class FileUtils {
     	return name.substring(pos+1, name.length());
     }
 
-	public static void main(String[] args) throws MalformedURLException,IOException {
-		deleteByFileTypes(new File("D:\\x\\"), true, "docx");
-	}
+// 	public static void main(String[] args) throws MalformedURLException,IOException {
+// 		deleteByFileTypes(new File("D:\\x\\"), true, "docx");
+// 	}
 
 
 }
