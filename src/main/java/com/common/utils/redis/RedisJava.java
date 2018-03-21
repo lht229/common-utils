@@ -23,22 +23,22 @@ import redis.clients.jedis.Transaction;
  */
 public class RedisJava {
 
-    public static void main(String[] args) throws InterruptedException {
-        // 连接本地的 Redis 服务
-        // Jedis jedis = new Jedis("192.168.1.178", 6379);
-        Jedis jedis = RedisUtil.getJedis();
-        System.out.println("Connection to server sucessfully");
-        // 查看服务是否运行
-        System.out.println("Server is running: " + jedis.ping());
-        RedisJava testRedis = new RedisJava();
+//     public static void main(String[] args) throws InterruptedException {
+//         // 连接本地的 Redis 服务
+//         // Jedis jedis = new Jedis("192.168.1.178", 6379);
+//         Jedis jedis = RedisUtil.getJedis();
+//         System.out.println("Connection to server sucessfully");
+//         // 查看服务是否运行
+//         System.out.println("Server is running: " + jedis.ping());
+//         RedisJava testRedis = new RedisJava();
 
-        testRedis.testString(jedis);
-        testRedis.testMap(jedis);
-        // testRedis.testList(jedis);
-        // testRedis.testSet(jedis);
-        // testRedis.test(jedis);
-        // testRedis.testRedisPool(jedis);
-    }
+//         testRedis.testString(jedis);
+//         testRedis.testMap(jedis);
+//         // testRedis.testList(jedis);
+//         // testRedis.testSet(jedis);
+//         // testRedis.test(jedis);
+//         // testRedis.testRedisPool(jedis);
+//     }
 
     /**
      * redis存储字符串
