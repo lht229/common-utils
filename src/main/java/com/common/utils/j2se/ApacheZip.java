@@ -159,13 +159,13 @@ public class ApacheZip {
 		}
 	}
 
-	public static void main(String[] args) {
-		 zip("测测进风口拉萨进风口了","E:\\xxxxxx.zip",new File[]{new
-		 File("E:\\x\\image\\"),new
-		 File("E:\\新建 Microsoft Office Excel 2007 工作表.xlsx"),new
-		 File("D:\\jdbc.properties")});
-		zipDir("测试", "E:\\zd.zip", "E:\\zd1\\");
+// 	public static void main(String[] args) {
+// 		 zip("测测进风口拉萨进风口了","E:\\xxxxxx.zip",new File[]{new
+// 		 File("E:\\x\\image\\"),new
+// 		 File("E:\\新建 Microsoft Office Excel 2007 工作表.xlsx"),new
+// 		 File("D:\\jdbc.properties")});
+// 		zipDir("测试", "E:\\zd.zip", "E:\\zd1\\");
 
-	}
+// 	}
 
 }
