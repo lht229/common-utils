@@ -8,6 +8,8 @@
 	<name>common-utils</name>
 
 	<properties>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
 		<java.version>1.7</java.version>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.locale>zh_CN</project.build.locale>
@@ -22,7 +24,7 @@
 		<checkstyle.config.location>${basedir}/src/main/resources/codequality/checkstyle.xml</checkstyle.config.location>
 	</properties>
 
-	
+
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
