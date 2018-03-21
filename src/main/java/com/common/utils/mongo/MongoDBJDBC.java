@@ -14,14 +14,14 @@ import com.mongodb.client.model.Filters;
 
 public class MongoDBJDBC {
 
-    public static void main(String args[]) {
-        try {
-            mongoConnect();
+//     public static void main(String args[]) {
+//         try {
+//             mongoConnect();
 
-        } catch (Exception e) {
-            System.err.println(e.getClass().getName() + ": " + e.getMessage());
-        }
-    }
+//         } catch (Exception e) {
+//             System.err.println(e.getClass().getName() + ": " + e.getMessage());
+//         }
+//     }
 
     private static void mongoConnect() {
         // 连接到 mongodb 服务
