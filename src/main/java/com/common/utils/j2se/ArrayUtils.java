@@ -228,9 +228,9 @@ public class ArrayUtils {
 		return sb.toString();
 	}
 
-	public static void main(String[] args) {
-		Date[] d={new Date(),new Date(),new Date(),new Date(),new Date(),new Date(),new Date()};
-		System.out.println(toString(d));
-	}
+// 	public static void main(String[] args) {
+// 		Date[] d={new Date(),new Date(),new Date(),new Date(),new Date(),new Date(),new Date()};
+// 		System.out.println(toString(d));
+// 	}
 
 }
